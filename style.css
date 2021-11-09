@@ -50,6 +50,112 @@ a.active,a:hover {
 #check {
 	display: none;
 }
+
+
+
+
+/*----------- Styling Main -----------*/
+main .site-tittle{
+    background-image: url(https://i.pinimg.com/736x/30/eb/34/30eb34249a26e26b32b794a6195f7a9d--computer-science-major-coding.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main .site-tittle .site-background{
+    padding-top:300px;
+    text-align: center;
+}
+
+main .site-tittle .btn-tittle{
+    padding: 15px 40px;
+    color:black;
+    display: inline-block;
+    
+    border-radius: 4px;
+    box-shadow:0px 7px darkslategray;
+}
+
+main .site-tittle .btn-tittle:Hover{
+    padding: 15px 40px;
+    background-color: #0082e6;
+    cursor:pointer;
+    color: white;
+}
+
+main h1,h3{
+    margin: 10px;
+    color: white;
+    font-size: 45px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:comic sans-serif;
+    color:#2b454e ;
+}
+
+#about .kolom p,h2{
+    color: black;
+    text-align: justify;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.kolom h2{
+    font-family:comic sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2b454e;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.btn-desc{
+    background-color:#00dfc0 ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color:#ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.btn-desc:hover{
+    background:#2b454e;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#home .kolom span{
+    color:#00dfc0 ;
+}
+
+.kolom p{
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+/*-----x----- Styling Main -----x-----*/
+
+
 @media(max-width: 760px){
 	.checkbtn {
 		display: block;
