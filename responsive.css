@@ -1,0 +1,42 @@
+@media(max-width: 1190px){
+	/* nav bar */
+	main h1, h3 {
+		font-size: 37px;
+	}
+
+	/* main */
+
+	#about {
+		display: block;
+	}
+
+	#about img {
+		position: relative;
+		width: 100%;
+	}
+
+	.kolom {
+		padding: 0 0 5% 0;
+	}
+}
+
+@media(max-width: 900px){
+	/* nav bar */
+	.checkbtn {
+		display: block;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	/* main */
+	main h1, h3 {
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+
+	#about {
+		padding: 0 5%;
+	}
+}
