@@ -4,56 +4,6 @@
 	font-family: arial, sans-serif;
 	letter-spacing: 2px;
 }
-nav {
-	background-color: #0082e6;
-	height: 60px;
-	width: 100%;
-	position: fixed;
-	z-index: 10;
-}
-label.logo {
-	color: #fff;
-	font-size: 30px;
-	line-height: 60px;
-	padding-left: 50px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-nav ul {
-	float: right;
-	margin-right: 20px;
-	list-style: none;
-}
-nav ul li {
-	display: inline-block;
-	line-height: 60px;
-	margin: 0 10px;
-}
-nav ul li a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 18px;
-	padding: 5px 8px;
-}
-a.active,a:hover {
-	background-color: #fff;
-	color: #0082e6;
-	border-radius: 20px;
-	transition: 0.5s;
-}
-.checkbtn {
-	float: right;
-	font-size: 30px;
-	line-height: 60px;
-	margin-right: 25px;
-	color: #fff;
-	display: none;
-}
-#check {
-	display: none;
-}
-
-
 
 
 /*----------- Styling Main -----------*/
@@ -162,12 +112,13 @@ a.btn-desc:hover{
 	.checkbtn {
 		display: block;
 		cursor: pointer;
+        color: #fff;
 	}
 	ul {
 		position: fixed;
 		background-color: darkblue;
-		width: 105%;
-		height: 100vh;
+		width: 50%;
+		height: 700px;
 		right: -110%;
 		transition: all 0.5s;
 	}
@@ -182,4 +133,46 @@ a.btn-desc:hover{
 	#check:checked ~ ul {
 		right: -20px;
 	}
+    .p1, .p2 {
+        float: none;
+        margin: 50px 0;
+        padding: 0;
+        width: 100%;
+    }
+    .float {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+}
+
+/*		styleing profil	*/
+
+.profil {
+	text-align: center;
+	margin: 70px 0;
+}
+.profil h3 {
+	font-size: 50px;
+	margin-bottom: 20px;
+	color: #2b454e;
+}
+.subJudul {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.gbr img {
+	height: 130px;
+	border-radius: 50%;
+}
+.txt {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: arial;
+	color: darkblue;
+	margin-top: 10px;
+}
+.boxGbr {
+	display: inline-block;
+	margin: 20px 25px;
 }
