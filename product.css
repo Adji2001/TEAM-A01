@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+	letter-spacing: 2px;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+	background-color: #0082e6;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+label.logo {
+	color: #fff;
+	font-size: 30px;
+	line-height: 60px;
+	padding-left: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+	margin: 0 10px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 8px;
+}
+a.active,a:hover {
+	background-color: #fff;
+	color: #0082e6;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.checkbtn {
+	float: right;
+	font-size: 30px;
+	line-height: 60px;
+	margin-right: 25px;
+	color: #fff;
+	display: none;
+}
+#check {
+	display: none;
+}
+
+/* Navbar close */
+.product {
+	background-color: #fff;
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 20px;
+}
+.float {
+	margin: 0 20px 200px 20px;
+}
+.p1 {
+	float: left;
+	width: 48%;
+}
+.p2 {
+	float: right;
+	width: 48%;
+}
+h4 {
+	margin-top: 90px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: #2b454e;
+}
+.boxProduk {
+	margin: 20px 20px;
+	padding: 10px;
+	border: 1px solid black;
+	box-shadow: 5px 5px black;
+	display: inline-block;
+	cursor: pointer;
+}
+.boxProduk:hover {
+	opacity: 0.6;
+}
+.boxProduk img {
+	height: 150px;
+}
+.nameProduk {
+	font-size: 20px;
+}
+.price {
+	opacity: 0.7;
+}
+.contact {
+	margin-top: 20px;
+}
+.contact p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.boxContact {
+	width: 500px;
+	height: 25px;
+}
+.boxSaran {
+	width: 500px;
+	height: 50px;
+}
+.boxContact, .boxSaran {
+	margin-top: -15px;
+	border: 1px solid rgb(13, 110, 253);
+	border-radius: 5px;
+}
+.submit {
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	border: none;
+	border-radius: 3px;
+	font-weight: bold;
+	background-color: rgb(13, 110, 253);
+	color: #fff;
+	box-shadow: 0 5px black;
+	cursor: pointer;
+}
+.submit:hover {
+	opacity: 0.9;
+}
+.submit:active {
+	box-shadow: none;
+	position: relative;
+	top: 5px;
+}
+.jarak {
+	margin-top: 180px;
+	margin-bottom: 30px;
+}
+.jagur {
+	margin-bottom: 50px;
+}
+.jaran {
+	margin-bottom: 50px;
+}
+footer {
+	background-color: #2b454e;
+	color: #fff;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	margin-top: 50px;
+}
